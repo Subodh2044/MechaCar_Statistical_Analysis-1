@@ -8,3 +8,4 @@ However, the linear model does not predict the mpg of MechaCar prototypes effect
 contain some level multicollinearity that is affecting the effectiveness of the model. These variables could be eliminated.
 
 ## Summary Statistics on Suspension Coils
+![total_summary.png](total_summary.png)
