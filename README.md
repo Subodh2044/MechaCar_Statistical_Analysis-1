@@ -9,3 +9,4 @@ contain some level multicollinearity that is affecting the effectiveness of the 
 
 ## Summary Statistics on Suspension Coils
 ![total_summary.png](total_summary.png)
+![lot_summary.png](lot_summary.png)
