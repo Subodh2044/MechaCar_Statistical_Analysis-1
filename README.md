@@ -17,3 +17,4 @@ The MechaCar suspension coils' design specifications dictate that the variance o
 ![lot2_t_test.png](lot2_t_test.png)
 ![lot3_t_test.png](lot3_t_test.png)
 
+## Study Design: MechaCar vs Competition.
