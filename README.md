@@ -33,5 +33,5 @@ A two-tailed test is designed to examine both sides of a specified data range as
 MechaCar mpg data and Mtcars mpg data
 ### Results and analysis
 The results show significant differences between the mean of MechaCar mpg and Mtcars mpg; therefore, the null hypothesis is rejected, and the alternative hypothesis is accepted.
-
+![mpg_result.png](mpg_result.png)
 
