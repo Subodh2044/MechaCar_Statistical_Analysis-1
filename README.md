@@ -31,5 +31,7 @@ A two-tailed test would be used for MechaCar production activities to determine 
 A two-tailed test is designed to examine both sides of a specified data range as designated by the likelihood of a specified outcome known as a probability distribution. involved
 ### Data to be used 
 MechaCar mpg data and Mtcars mpg data
+### Results and analysis
+The results show significant differences between the mean of MechaCar mpg and Mtcars mpg; therefore, the null hypothesis is rejected, and the alternative hypothesis is accepted.
 
 
