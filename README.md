@@ -21,4 +21,15 @@ The MechaCar suspension coils' design specifications dictate that the variance o
 ### Description
 Hypotheses are utilized by the scientific method to help narrow the scope of research and testing and provide a clear outcome of our results. 
 Choosing whether to perform a one-tailed or a two-tailed hypothesis testing is one of the basic concepts of inferential statistics, which is run to determine whether a claim is true or not, given a population parameter. When testing is programmed to show whether the mean of a sample is significantly greater than or significantly less than the mean of a population, that is referred to as a two-tailed test.
+### Metrics
+In this study, mpg mean of MechaCar is compared with Mtcars mpg to see if there is a significant difference in MechaCar miles per gallon and Mtcars miles per gallon.
+### Hypothesis 
+Null Hypothesis(H0): There is no significant difference between the mean of MechaCar mpg and Mtcars mpg
+Alternative Hypothesis (Ha): There us a significant difference between the mean of MechaCar mpg and Mtcars mpg
+### Statistical testing
+A two-tailed test would be used for MechaCar production activities to determine if the production meets the industry standard.
+A two-tailed test is designed to examine both sides of a specified data range as designated by the likelihood of a specified outcome known as a probability distribution. involved
+### Data to be used 
+MechaCar mpg data and Mtcars mpg data
+
 
