@@ -18,3 +18,7 @@ The MechaCar suspension coils' design specifications dictate that the variance o
 ![lot3_t_test.png](lot3_t_test.png)
 
 ## Study Design: MechaCar vs Competition.
+### Description
+Hypotheses are utilized by the scientific method to help narrow the scope of research and testing and provide a clear outcome of our results. 
+Choosing whether to perform a one-tailed or a two-tailed hypothesis testing is one of the basic concepts of inferential statistics, which is run to determine whether a claim is true or not, given a population parameter. When testing is programmed to show whether the mean of a sample is significantly greater than or significantly less than the mean of a population, that is referred to as a two-tailed test.
+
