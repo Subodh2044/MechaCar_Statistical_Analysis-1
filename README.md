@@ -34,5 +34,5 @@ MechaCar mpg data and Mtcars mpg data
 ### Results and analysis
 The results show significant differences between the mean of MechaCar mpg and Mtcars mpg; therefore, the null hypothesis is rejected, and the alternative hypothesis is accepted.
 ![mpg_result.png](mpg_result.png)
-The results show that, the mean of MechaCar mpg is 45 while Mtcars is 20. This indicate that, the competitor products are more fuel efficient than MechaCar. MechaCar need to improve on this area in order to be competitive in the market.
+The results show that, the mean of MechaCar mpg is 45 while Mtcars mpg is 20. This indicate that, the competitor products are more fuel efficient than MechaCar. MechaCar need to improve on this area in order to be competitive in the market.
 
