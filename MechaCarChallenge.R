@@ -1,16 +1,17 @@
 # Import the library
-library("dplyr")
-
+library(dplyr)
+library(tidyverse)
 #Import and read the data
 mecha <- read.csv(file="MechaCar_mpg.csv",check.names= F, stringsAsFactors = F)
 
 # Perform linear regression
-lm(mpg~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + 
+ lm(mpg~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + 
      AWD, data=mecha)
 
 # Get the summary of the linear regression
 summary(lm(mpg~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + 
              AWD, data=mecha))
+# Plot the Graph
 
 # Remove spoiler angle 
 summary(lm(mpg~ vehicle_length + vehicle_weight  + ground_clearance + 
@@ -38,13 +39,18 @@ lot_summary <- suspension %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mea
 
 # Deliverable 3
 # t-test
-t.test(lot_summary$Mean, mu=mean(total_summary$Mean)) 
+?t.test()
+t.test(lot_summary$Mean, mu=1500) 
 
 #subsets
-lot1_summary <- subset(lot_summary,Manufacturing_Lot=='Lot1')
-t.test(lot1_summary$Mean, mu=mean(total_summary$Mean))
+lot1_summary <- subset(suspension,Manufacturing_Lot=='Lot1')
+t.test(lot1_summary$PSI, mu=1500)
 
+lot2_summary <- subset(suspension, Manufacturing_Lot == 'Lot2')
+t.test(lot2_summary$PSI, mu=1500)
 
-
-#lot1_summary <- subset(suspension,Manufacturing_Lot=='Lot1') %>% summarize(Mean=mean(PSI), .groups='keep')
-#t.test(lot1_summary$Mean, mu=mean(total_summary$Mean))
+lot3_summary <- subset(suspension, Manufacturing_Lot == 'Lot3')
+t.test(lot3_summary$PSI, mu=1500)
+mtcars
+mecha
+t.test(mecha$mpg, mtcars$mpg)
